@@ -962,7 +962,7 @@
 "@modules/app-menu@file:./modules/app-menu":
   version "1.0.0"
 
-"@modules/chat@file:./modules/chat/":
+"@modules/chat@file:./modules/chat":
   version "1.0.0"
   dependencies:
     pubnub "^4.29.11"
@@ -986,6 +986,12 @@
     uuid "^8.3.2"
 
 "@modules/user-profile@file:./modules/user-profile":
+  version "1.0.0"
+  dependencies:
+    "@react-navigation/native" "^5.9.2"
+    react-native-elements "^2.3.2"
+
+"@modules/user-profile@file:./modules/user-profile/":
   version "1.0.0"
   dependencies:
     "@react-navigation/native" "^5.9.2"
